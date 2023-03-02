@@ -1,0 +1,16 @@
+
+Comandos gerenciamento de pacotes (pacman) no Arch Linux
+
+*************************************************************************
+# pacman -Sy */sincroniza os repositorios.
+# pacman -Su = procura por atualização.
+# pacman -Syu = sincroniza os repositórios/procura por atualização.
+# sudo pacman -Ss nome_do_pacote = procura por um pacote.
+# pacman -Syyu = sincronização total/procura por atualização.
+# sudo pacman -S nome_do_pacote = instala um pacote
+# sudo pacman -Sw nome_do_pacote = apenas baixa o pacote e não o instala
+# sudo pacman -Si nome_do_pacote = mostra informações de um pacote não instalado.
+# sudo pacman -Qi nome_do_pacote = mostra informações do pacote já instalado.
+
+# sudo pacman -R nome_do_pacote = remove um pacote.
+# sudo pacman -Rs nome_do_pacote = remove o pacote junto com as dependências não usadas por outros pacotes.
